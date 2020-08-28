@@ -110,7 +110,7 @@
  * Select a secondary serial port on the board to use for communication with the host.
  * :[-1, 0, 1, 2, 3, 4, 5, 6, 7]
  */
-//#define SERIAL_PORT_2 -1
+#define SERIAL_PORT_2 -1
 
 /**
  * This setting determines the communication speed of the printer.
@@ -490,9 +490,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // Ultimaker
-  #define DEFAULT_Kp 15.69
-  #define DEFAULT_Ki 0.78
-  #define DEFAULT_Kd 79.22
+  #define DEFAULT_Kp 21.17
+  #define DEFAULT_Ki 1.26
+  #define DEFAULT_Kd 88.84
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -1017,7 +1017,7 @@
  * A total of 2 does fast/slow probes with a weighted average.
  * A total of 3 or more adds more slow probes, taking the average.
  */
-#define MULTIPLE_PROBING 1
+//#define MULTIPLE_PROBING 1
 //#define EXTRA_PROBING    1
 
 /**
