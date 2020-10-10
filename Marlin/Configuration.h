@@ -993,7 +993,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { 49, 17, -1.14 }
+#define NOZZLE_TO_PROBE_OFFSET { -41, 0, -1.14 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
@@ -1395,8 +1395,8 @@
 #define Z_SAFE_HOMING
 
 #if ENABLED(Z_SAFE_HOMING)
-  #define Z_SAFE_HOMING_X_POINT 65  // X point for Z homing
-  #define Z_SAFE_HOMING_Y_POINT 45  // Y point for Z homing
+  #define Z_SAFE_HOMING_X_POINT 90  // X point for Z homing
+  #define Z_SAFE_HOMING_Y_POINT 25  // Y point for Z homing
 #endif
 
 // Homing speeds (mm/m)
