@@ -1395,8 +1395,8 @@
 #define Z_SAFE_HOMING
 
 #if ENABLED(Z_SAFE_HOMING)
-  #define Z_SAFE_HOMING_X_POINT 25  // X point for Z homing
-  #define Z_SAFE_HOMING_Y_POINT 25  // Y point for Z homing
+  #define Z_SAFE_HOMING_X_POINT 5  // X point for Z homing
+  #define Z_SAFE_HOMING_Y_POINT 20  // Y point for Z homing
 #endif
 
 // Homing speeds (mm/m)
