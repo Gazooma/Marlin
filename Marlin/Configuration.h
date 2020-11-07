@@ -993,7 +993,11 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
+<<<<<<< HEAD
 #define NOZZLE_TO_PROBE_OFFSET { -41, 0, -0.81 }
+=======
+#define NOZZLE_TO_PROBE_OFFSET { -41, 0, -1.75 }
+>>>>>>> parent of cc0a9c4cb1... z offset / motor currents
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
